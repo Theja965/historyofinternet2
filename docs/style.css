@@ -4,7 +4,7 @@ body,html{
 }
 .hero-image{
     background-image: url("pexels-julia-m-cameron-4144100.jpg");
-    height: 50%;
+    height: 70%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,10 +19,10 @@ body,html{
     color: whitesmoke;
 }
 .button {
-    background-color: #4CAF50;
+    background-color: black;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 5px 8px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -74,4 +74,9 @@ body,html{
 }
 .carousel-caption{
     min-width: 500px;
+}
+.h2{
+    font-family: Roboto;
+    font-size: 14px;
+    text-align: center;
 }
