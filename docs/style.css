@@ -17,6 +17,7 @@ body,html{
     left: 50%;
     transform: translate(-50%, -50%);
     color: whitesmoke;
+    font-size: 60px;
 }
 .button {
     background-color: black;
@@ -30,48 +31,6 @@ body,html{
     margin: 4px 2px;
     cursor: pointer;
 }
-.navbar a{
-    font-family: 'Courier New', Consolas, cursive;font-size: 19px;
-}
-.nav-link span{
-    font-family: 'Comfortaa', sans-serif, serif;font-size: 19px;color: black;
-}
-.nav-link i{
-    font-family: 'Comfortaa', sans-serif, serif;font-size: 19px;color: black;
-}
-.nav-link a{
-    font-family: 'Comfortaa', sans-serif, serif;font-size: 19px;color: black;
-}
-.navbar {
-    max-height: 30px;
-}
-.dropdown-menu a{
-    font-family: 'Comfortaa', sans-serif, serif;font-size: 14px;color: black;
-}
-
-.navbar-expand{
-    min-height: 8px;
-    color: #2a2730
-}
-.navbar-nav a{
-    font-size: 20px;
-}
-.navbar li {
-    text-align: center;
-    color: black;
-}
-
-.navbar-brand {
-    padding: 0px;
-    height: 20px;
-    line-height: 10px;
-}
-
-.navbar-toggle {
-    /* (80px - button height 34px) / 2 = 23px */
-    margin-top: 0px;
-    padding: 9px 10px !important;
-}
 .carousel-caption{
     min-width: 500px;
 }
@@ -79,4 +38,10 @@ body,html{
     font-family: Roboto;
     font-size: 14px;
     text-align: center;
+}
+
+.footer{
+    font-size: 25px;
+    font-family: Roboto;
+
 }
